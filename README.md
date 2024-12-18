@@ -25,13 +25,15 @@ Utilizziamo il ciclo for iniziando a contare da 1 fino al massimo di 100
 stampiamo i valori di i da 1 a 100  
 
 ELABORAZIONE
-se abbiamo dei multipli di 3 il programma deve modificare i da numero a stringa "fizz"
+
+<!--viene inserito prima fizzbuzz perche la sua condizione è più debole rispetto agli altri  -->
+se abbiamo dei multipli sia di 3 che di 5 il programma deve modificare i da numero a stringa "fizzbuzz" 
+
+altrimenti se abbiamo dei multipli di 3 il programma deve modificare i da numero a stringa "fizz"
 
 altrimenti se abbiamo dei multipli di 5 il programma deve modificare i da numero a stringa "buzz"
 
-altrimenti se abbiamo dei multipli sia di 3 che di 5 il programma deve modificare i da numero a stringa "fizzbuzz"
-
-altrimenti il valore di i è normalmente un numero(questo dovrebbe essere sottinteso)
+altrimenti il valore di i è normalmente un numero
 
 OUTPUT
 Mostrate tutto tramite console log
